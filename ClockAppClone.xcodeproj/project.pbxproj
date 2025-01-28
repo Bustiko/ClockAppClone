@@ -6,17 +6,98 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C96C2AE12D4956C200F40474 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C96C2ADB2D4956C200F40474 /* Assets.xcassets */; };
+		C96C2AE22D4956C200F40474 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C96C2ABC2D4956C200F40474 /* Preview Assets.xcassets */; };
+		C96C2AE32D4956C200F40474 /* AlarmPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2AAD2D4956C200F40474 /* AlarmPageView.swift */; };
+		C96C2AE42D4956C200F40474 /* StopwatchPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2AAF2D4956C200F40474 /* StopwatchPageView.swift */; };
+		C96C2AE52D4956C200F40474 /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2ACD2D4956C200F40474 /* BlankView.swift */; };
+		C96C2AE62D4956C200F40474 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2AC22D4956C200F40474 /* Extension.swift */; };
+		C96C2AE72D4956C200F40474 /* TabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2AD12D4956C200F40474 /* TabItemView.swift */; };
+		C96C2AE82D4956C200F40474 /* ClockAppCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2ADD2D4956C200F40474 /* ClockAppCloneApp.swift */; };
+		C96C2AE92D4956C200F40474 /* AddWorldClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2AC92D4956C200F40474 /* AddWorldClockView.swift */; };
+		C96C2AEA2D4956C200F40474 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2ACF2D4956C200F40474 /* PickerView.swift */; };
+		C96C2AEB2D4956C200F40474 /* AlarmEditButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2ACA2D4956C200F40474 /* AlarmEditButtonsView.swift */; };
+		C96C2AEC2D4956C200F40474 /* TimerEditButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2AD32D4956C200F40474 /* TimerEditButtonsView.swift */; };
+		C96C2AED2D4956C200F40474 /* TimerPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2AB02D4956C200F40474 /* TimerPageView.swift */; };
+		C96C2AEE2D4956C200F40474 /* SettingsToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2AD02D4956C200F40474 /* SettingsToggleView.swift */; };
+		C96C2AEF2D4956C200F40474 /* AddTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2AC82D4956C200F40474 /* AddTimerView.swift */; };
+		C96C2AF02D4956C200F40474 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2ABF2D4956C200F40474 /* Constants.swift */; };
+		C96C2AF12D4956C200F40474 /* TimezoneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2ABA2D4956C200F40474 /* TimezoneManager.swift */; };
+		C96C2AF22D4956C200F40474 /* WorldClockEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2AC52D4956C200F40474 /* WorldClockEdit.swift */; };
+		C96C2AF32D4956C200F40474 /* MainAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2AAE2D4956C200F40474 /* MainAppView.swift */; };
+		C96C2AF42D4956C200F40474 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2AC32D4956C200F40474 /* Modifiers.swift */; };
+		C96C2AF52D4956C200F40474 /* TimezoneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2AB32D4956C200F40474 /* TimezoneModel.swift */; };
+		C96C2AF62D4956C200F40474 /* TimerEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2AC42D4956C200F40474 /* TimerEdit.swift */; };
+		C96C2AF72D4956C200F40474 /* WorldClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2AD92D4956C200F40474 /* WorldClockView.swift */; };
+		C96C2AF82D4956C200F40474 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2ADE2D4956C200F40474 /* Persistence.swift */; };
+		C96C2AF92D4956C200F40474 /* TimersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2AD62D4956C200F40474 /* TimersView.swift */; };
+		C96C2AFA2D4956C200F40474 /* TimerProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2AD52D4956C200F40474 /* TimerProgressView.swift */; };
+		C96C2AFB2D4956C200F40474 /* AddAlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2AB72D4956C200F40474 /* AddAlarmModel.swift */; };
+		C96C2AFC2D4956C200F40474 /* TimerPresetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2AD42D4956C200F40474 /* TimerPresetView.swift */; };
+		C96C2AFD2D4956C200F40474 /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2ACC2D4956C200F40474 /* AlarmView.swift */; };
+		C96C2AFE2D4956C200F40474 /* WorldClockEditButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2AD72D4956C200F40474 /* WorldClockEditButtonsView.swift */; };
+		C96C2AFF2D4956C200F40474 /* AddAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2AC72D4956C200F40474 /* AddAlarmView.swift */; };
+		C96C2B002D4956C200F40474 /* AlarmEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2ABE2D4956C200F40474 /* AlarmEdit.swift */; };
+		C96C2B012D4956C200F40474 /* DateUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2AC12D4956C200F40474 /* DateUtility.swift */; };
+		C96C2B022D4956C200F40474 /* TabSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2AD22D4956C200F40474 /* TabSelectionView.swift */; };
+		C96C2B032D4956C200F40474 /* CustomToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2AC02D4956C200F40474 /* CustomToggle.swift */; };
+		C96C2B042D4956C200F40474 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2AB52D4956C200F40474 /* NetworkError.swift */; };
+		C96C2B052D4956C200F40474 /* ClockAppClone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C96C2ADC2D4956C200F40474 /* ClockAppClone.xcdatamodeld */; };
+		C96C2B062D4956C200F40474 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2ACE2D4956C200F40474 /* DatePickerView.swift */; };
+		C96C2B072D4956C200F40474 /* WorldClockOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2AD82D4956C200F40474 /* WorldClockOptionsView.swift */; };
+		C96C2B082D4956C200F40474 /* WorldClockPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2AB12D4956C200F40474 /* WorldClockPageView.swift */; };
+		C96C2B092D4956C200F40474 /* AlarmOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2ACB2D4956C200F40474 /* AlarmOptionsView.swift */; };
+		C96C2B0A2D4956C200F40474 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96C2AB92D4956C200F40474 /* DataManager.swift */; };
+		C96C2B0C2D4956D700F40474 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C96C2B0B2D4956D700F40474 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		C96C2A9C2D4956A500F40474 /* ClockAppClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClockAppClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C96C2AAD2D4956C200F40474 /* AlarmPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmPageView.swift; sourceTree = "<group>"; };
+		C96C2AAE2D4956C200F40474 /* MainAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppView.swift; sourceTree = "<group>"; };
+		C96C2AAF2D4956C200F40474 /* StopwatchPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchPageView.swift; sourceTree = "<group>"; };
+		C96C2AB02D4956C200F40474 /* TimerPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerPageView.swift; sourceTree = "<group>"; };
+		C96C2AB12D4956C200F40474 /* WorldClockPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockPageView.swift; sourceTree = "<group>"; };
+		C96C2AB32D4956C200F40474 /* TimezoneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimezoneModel.swift; sourceTree = "<group>"; };
+		C96C2AB52D4956C200F40474 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		C96C2AB72D4956C200F40474 /* AddAlarmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmModel.swift; sourceTree = "<group>"; };
+		C96C2AB92D4956C200F40474 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		C96C2ABA2D4956C200F40474 /* TimezoneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimezoneManager.swift; sourceTree = "<group>"; };
+		C96C2ABC2D4956C200F40474 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C96C2ABE2D4956C200F40474 /* AlarmEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmEdit.swift; sourceTree = "<group>"; };
+		C96C2ABF2D4956C200F40474 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C96C2AC02D4956C200F40474 /* CustomToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.swift; sourceTree = "<group>"; };
+		C96C2AC12D4956C200F40474 /* DateUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtility.swift; sourceTree = "<group>"; };
+		C96C2AC22D4956C200F40474 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		C96C2AC32D4956C200F40474 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		C96C2AC42D4956C200F40474 /* TimerEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerEdit.swift; sourceTree = "<group>"; };
+		C96C2AC52D4956C200F40474 /* WorldClockEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockEdit.swift; sourceTree = "<group>"; };
+		C96C2AC72D4956C200F40474 /* AddAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmView.swift; sourceTree = "<group>"; };
+		C96C2AC82D4956C200F40474 /* AddTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTimerView.swift; sourceTree = "<group>"; };
+		C96C2AC92D4956C200F40474 /* AddWorldClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorldClockView.swift; sourceTree = "<group>"; };
+		C96C2ACA2D4956C200F40474 /* AlarmEditButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmEditButtonsView.swift; sourceTree = "<group>"; };
+		C96C2ACB2D4956C200F40474 /* AlarmOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmOptionsView.swift; sourceTree = "<group>"; };
+		C96C2ACC2D4956C200F40474 /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
+		C96C2ACD2D4956C200F40474 /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
+		C96C2ACE2D4956C200F40474 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		C96C2ACF2D4956C200F40474 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		C96C2AD02D4956C200F40474 /* SettingsToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsToggleView.swift; sourceTree = "<group>"; };
+		C96C2AD12D4956C200F40474 /* TabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemView.swift; sourceTree = "<group>"; };
+		C96C2AD22D4956C200F40474 /* TabSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSelectionView.swift; sourceTree = "<group>"; };
+		C96C2AD32D4956C200F40474 /* TimerEditButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerEditButtonsView.swift; sourceTree = "<group>"; };
+		C96C2AD42D4956C200F40474 /* TimerPresetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerPresetView.swift; sourceTree = "<group>"; };
+		C96C2AD52D4956C200F40474 /* TimerProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerProgressView.swift; sourceTree = "<group>"; };
+		C96C2AD62D4956C200F40474 /* TimersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimersView.swift; sourceTree = "<group>"; };
+		C96C2AD72D4956C200F40474 /* WorldClockEditButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockEditButtonsView.swift; sourceTree = "<group>"; };
+		C96C2AD82D4956C200F40474 /* WorldClockOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockOptionsView.swift; sourceTree = "<group>"; };
+		C96C2AD92D4956C200F40474 /* WorldClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockView.swift; sourceTree = "<group>"; };
+		C96C2ADB2D4956C200F40474 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C96C2ADD2D4956C200F40474 /* ClockAppCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockAppCloneApp.swift; sourceTree = "<group>"; };
+		C96C2ADE2D4956C200F40474 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C96C2AE02D4956C200F40474 /* ClockAppClone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClockAppClone.xcdatamodel; sourceTree = "<group>"; };
+		C96C2B0B2D4956D700F40474 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		C96C2A9E2D4956A500F40474 /* ClockAppClone */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ClockAppClone;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C96C2A992D4956A500F40474 /* Frameworks */ = {
@@ -32,7 +113,8 @@
 		C96C2A932D4956A500F40474 = {
 			isa = PBXGroup;
 			children = (
-				C96C2A9E2D4956A500F40474 /* ClockAppClone */,
+				C96C2B0B2D4956D700F40474 /* .gitignore */,
+				C96C2ADF2D4956C200F40474 /* ClockAppClone */,
 				C96C2A9D2D4956A500F40474 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +125,119 @@
 				C96C2A9C2D4956A500F40474 /* ClockAppClone.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C96C2AB22D4956C200F40474 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C96C2AAD2D4956C200F40474 /* AlarmPageView.swift */,
+				C96C2AAE2D4956C200F40474 /* MainAppView.swift */,
+				C96C2AAF2D4956C200F40474 /* StopwatchPageView.swift */,
+				C96C2AB02D4956C200F40474 /* TimerPageView.swift */,
+				C96C2AB12D4956C200F40474 /* WorldClockPageView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C96C2AB42D4956C200F40474 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C96C2AB32D4956C200F40474 /* TimezoneModel.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C96C2AB62D4956C200F40474 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				C96C2AB52D4956C200F40474 /* NetworkError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		C96C2AB82D4956C200F40474 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C96C2AB72D4956C200F40474 /* AddAlarmModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C96C2ABB2D4956C200F40474 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C96C2AB92D4956C200F40474 /* DataManager.swift */,
+				C96C2ABA2D4956C200F40474 /* TimezoneManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C96C2ABD2D4956C200F40474 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C96C2ABC2D4956C200F40474 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C96C2AC62D4956C200F40474 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C96C2ABE2D4956C200F40474 /* AlarmEdit.swift */,
+				C96C2ABF2D4956C200F40474 /* Constants.swift */,
+				C96C2AC02D4956C200F40474 /* CustomToggle.swift */,
+				C96C2AC12D4956C200F40474 /* DateUtility.swift */,
+				C96C2AC22D4956C200F40474 /* Extension.swift */,
+				C96C2AC32D4956C200F40474 /* Modifiers.swift */,
+				C96C2AC42D4956C200F40474 /* TimerEdit.swift */,
+				C96C2AC52D4956C200F40474 /* WorldClockEdit.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		C96C2ADA2D4956C200F40474 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C96C2AC72D4956C200F40474 /* AddAlarmView.swift */,
+				C96C2AC82D4956C200F40474 /* AddTimerView.swift */,
+				C96C2AC92D4956C200F40474 /* AddWorldClockView.swift */,
+				C96C2ACA2D4956C200F40474 /* AlarmEditButtonsView.swift */,
+				C96C2ACB2D4956C200F40474 /* AlarmOptionsView.swift */,
+				C96C2ACC2D4956C200F40474 /* AlarmView.swift */,
+				C96C2ACD2D4956C200F40474 /* BlankView.swift */,
+				C96C2ACE2D4956C200F40474 /* DatePickerView.swift */,
+				C96C2ACF2D4956C200F40474 /* PickerView.swift */,
+				C96C2AD02D4956C200F40474 /* SettingsToggleView.swift */,
+				C96C2AD12D4956C200F40474 /* TabItemView.swift */,
+				C96C2AD22D4956C200F40474 /* TabSelectionView.swift */,
+				C96C2AD32D4956C200F40474 /* TimerEditButtonsView.swift */,
+				C96C2AD42D4956C200F40474 /* TimerPresetView.swift */,
+				C96C2AD52D4956C200F40474 /* TimerProgressView.swift */,
+				C96C2AD62D4956C200F40474 /* TimersView.swift */,
+				C96C2AD72D4956C200F40474 /* WorldClockEditButtonsView.swift */,
+				C96C2AD82D4956C200F40474 /* WorldClockOptionsView.swift */,
+				C96C2AD92D4956C200F40474 /* WorldClockView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C96C2ADF2D4956C200F40474 /* ClockAppClone */ = {
+			isa = PBXGroup;
+			children = (
+				C96C2AB22D4956C200F40474 /* App */,
+				C96C2AB42D4956C200F40474 /* Data */,
+				C96C2AB62D4956C200F40474 /* Error */,
+				C96C2AB82D4956C200F40474 /* Model */,
+				C96C2ABB2D4956C200F40474 /* Network */,
+				C96C2ABD2D4956C200F40474 /* Preview Content */,
+				C96C2AC62D4956C200F40474 /* Utility */,
+				C96C2ADA2D4956C200F40474 /* View */,
+				C96C2ADB2D4956C200F40474 /* Assets.xcassets */,
+				C96C2ADC2D4956C200F40474 /* ClockAppClone.xcdatamodeld */,
+				C96C2ADD2D4956C200F40474 /* ClockAppCloneApp.swift */,
+				C96C2ADE2D4956C200F40474 /* Persistence.swift */,
+			);
+			path = ClockAppClone;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +254,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				C96C2A9E2D4956A500F40474 /* ClockAppClone */,
 			);
 			name = ClockAppClone;
 			packageProductDependencies = (
@@ -109,6 +301,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C96C2AE12D4956C200F40474 /* Assets.xcassets in Resources */,
+				C96C2B0C2D4956D700F40474 /* .gitignore in Resources */,
+				C96C2AE22D4956C200F40474 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +314,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C96C2AE32D4956C200F40474 /* AlarmPageView.swift in Sources */,
+				C96C2AE42D4956C200F40474 /* StopwatchPageView.swift in Sources */,
+				C96C2AE52D4956C200F40474 /* BlankView.swift in Sources */,
+				C96C2AE62D4956C200F40474 /* Extension.swift in Sources */,
+				C96C2AE72D4956C200F40474 /* TabItemView.swift in Sources */,
+				C96C2AE82D4956C200F40474 /* ClockAppCloneApp.swift in Sources */,
+				C96C2AE92D4956C200F40474 /* AddWorldClockView.swift in Sources */,
+				C96C2AEA2D4956C200F40474 /* PickerView.swift in Sources */,
+				C96C2AEB2D4956C200F40474 /* AlarmEditButtonsView.swift in Sources */,
+				C96C2AEC2D4956C200F40474 /* TimerEditButtonsView.swift in Sources */,
+				C96C2AED2D4956C200F40474 /* TimerPageView.swift in Sources */,
+				C96C2AEE2D4956C200F40474 /* SettingsToggleView.swift in Sources */,
+				C96C2AEF2D4956C200F40474 /* AddTimerView.swift in Sources */,
+				C96C2AF02D4956C200F40474 /* Constants.swift in Sources */,
+				C96C2AF12D4956C200F40474 /* TimezoneManager.swift in Sources */,
+				C96C2AF22D4956C200F40474 /* WorldClockEdit.swift in Sources */,
+				C96C2AF32D4956C200F40474 /* MainAppView.swift in Sources */,
+				C96C2AF42D4956C200F40474 /* Modifiers.swift in Sources */,
+				C96C2AF52D4956C200F40474 /* TimezoneModel.swift in Sources */,
+				C96C2AF62D4956C200F40474 /* TimerEdit.swift in Sources */,
+				C96C2AF72D4956C200F40474 /* WorldClockView.swift in Sources */,
+				C96C2AF82D4956C200F40474 /* Persistence.swift in Sources */,
+				C96C2AF92D4956C200F40474 /* TimersView.swift in Sources */,
+				C96C2AFA2D4956C200F40474 /* TimerProgressView.swift in Sources */,
+				C96C2AFB2D4956C200F40474 /* AddAlarmModel.swift in Sources */,
+				C96C2AFC2D4956C200F40474 /* TimerPresetView.swift in Sources */,
+				C96C2AFD2D4956C200F40474 /* AlarmView.swift in Sources */,
+				C96C2AFE2D4956C200F40474 /* WorldClockEditButtonsView.swift in Sources */,
+				C96C2AFF2D4956C200F40474 /* AddAlarmView.swift in Sources */,
+				C96C2B002D4956C200F40474 /* AlarmEdit.swift in Sources */,
+				C96C2B012D4956C200F40474 /* DateUtility.swift in Sources */,
+				C96C2B022D4956C200F40474 /* TabSelectionView.swift in Sources */,
+				C96C2B032D4956C200F40474 /* CustomToggle.swift in Sources */,
+				C96C2B042D4956C200F40474 /* NetworkError.swift in Sources */,
+				C96C2B052D4956C200F40474 /* ClockAppClone.xcdatamodeld in Sources */,
+				C96C2B062D4956C200F40474 /* DatePickerView.swift in Sources */,
+				C96C2B072D4956C200F40474 /* WorldClockOptionsView.swift in Sources */,
+				C96C2B082D4956C200F40474 /* WorldClockPageView.swift in Sources */,
+				C96C2B092D4956C200F40474 /* AlarmOptionsView.swift in Sources */,
+				C96C2B0A2D4956C200F40474 /* DataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +559,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C96C2ADC2D4956C200F40474 /* ClockAppClone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C96C2AE02D4956C200F40474 /* ClockAppClone.xcdatamodel */,
+			);
+			currentVersion = C96C2AE02D4956C200F40474 /* ClockAppClone.xcdatamodel */;
+			path = ClockAppClone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C96C2A942D4956A500F40474 /* Project object */;
 }
